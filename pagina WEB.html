@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAGON BALL CRONICLES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos para el menú de navegación */
+        nav {
+            background-color: #4B0082; /* Morado oscuro */
+            padding: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            margin-right: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        /* Estilos para el fondo */
+        .background {
+            background-image: url('fondo.png'); /* Cambia esta ruta por la de tu imagen de fondo */
+            background-size: cover;
+            height: calc(100vh - 60px); /* Resta la altura del menú de navegación */
+            position: relative;
+        }
+        /* Estilos para logo2 */
+        .logo2 {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+        }
+        /* Estilos para el botón */
+        .button {
+            position: absolute;
+            top: calc(370px + 100px); /* Ajusta según el tamaño de logo2 */
+            left: 90px; /* Separado 20 px a la izquierda */
+            height: 80px; /* Ajusta el tamaño del botón según sea necesario */
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <img src="logo.png" alt="Logo" class="logo" width="130" height="90"> <!-- Cambia la ruta de la imagen -->
+        <ul>
+            
+        </ul>
+    </nav>
+
+    <div class="background">
+        <img src="logo2.png" alt="Logo2" class="logo2" style="width: 550px;"> <!-- Cambia la ruta de la imagen -->
+        <img src="boton1.png" alt="Botón" class="button" style="width: 450px;"> <!-- Cambia la ruta de la imagen -->
+    </div>
+
+</body>
+</html>
